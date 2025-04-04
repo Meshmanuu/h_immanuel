@@ -99,5 +99,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 ## ✨ Acknowledgements
 
 - Design inspiration from modern portfolio trends
-- Regars to Power Learn Project Inspiration
+- Regards to Power Learn Project Inspiration
 - UI components built with pure CSS
