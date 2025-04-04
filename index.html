@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immanuel_portfolio</title>
+    <meta name="description" content="My portfolio showcasing HTML, CSS, JavaScript, and SQL skills." />
+    <meta name="author" content="Immanuel A." />
+
+    
+    <link rel="icon" type="icon" src="public/favicon.ico" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="nav-container">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo">Meshack<span class="text-primary">Portfolio</span></a>
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title animate-slide-up">
+              Hi, I'm <span class="text-primary">Immanuel Meshack Anyangu</span>
+              <br />Junior Developer
+            </h1>
+            <p class="hero-description animate-slide-up">
+              Building responsive websites and applications with a focus on clean code and user experience. Passionate about HTML, CSS, JavaScript, and SQL.
+            </p>
+            <div class="hero-buttons animate-slide-up">
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+              <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
+          </div>
+          <div class="hero-image animate-fade-in">
+            <div class="image-container">
+              <img src="/public/img/pp.png" alt="Meshack portrait" class="portrait-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section-container">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img src="/public/img/1738851352540.jpg" alt="About me" class="rounded-image" />
+            </div>
+            <div class="about-text">
+              <p>
+                Hello! I'm Immanuel Meshack, a passionate junior developer with a strong foundation in HTML, CSS, JavaScript,Wordpress, and SQL. I'm dedicated to creating clean, efficient, and user-friendly web applications.
+              </p>
+              <p>
+                My journey in web development began during Power Learn Project Bootcamp, where I discovered my passion for building interactive web experiences. Since then, I've been continuously learning and improving my skills.
+              </p>
+              <p>
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities to maintain a healthy work-life balance.
+              </p>
+              <div class="about-details">
+                <div class="detail-item">
+                  <span class="detail-label">Name:</span>
+                  <span class="detail-value">Immanuel Anyangu</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Email:</span>
+                  <span class="detail-value">meshanyangu@gmail.com</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Location:</span>
+                  <span class="detail-value">Nairobi, Kenya</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Availability:</span>
+                  <span class="detail-value">Full-time</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section-container bg-muted">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-container">
+            <div class="skills-group">
+              <h3 class="skills-category">Frontend Development</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">CSS3 & Animations</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Wordpress</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator" style="width: 92%"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="skills-group">
+              <h3 class="skills-category">Backend & Databases</h3>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator techteal" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Database Design</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator techteal" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">RESTful APIs</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator techteal" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Data Validation</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-root">
+                  <div class="progress-indicator techteal" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tech-badges-container">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">SQL</span>
+            <span class="tech-badge">Wordpress</span>
+            <span class="tech-badge">Database Design</span>
+            <span class="tech-badge">Digital marketting</span>
+            <span class="tech-badge">Data Entry</span>
+            <span class="tech-badge">Annotation</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section-container">
+        <div class="container">
+          <h2 class="section-title">Recent Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/public/img/ec.png" alt="E-commerce Website Project" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">E-commerce Website</h3>
+                <p class="project-description">
+                  A responsive e-commerce website with product filtering, shopping cart functionality, and a SQL database for product management.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">HTML5</span>
+                  <span class="tech-badge">CSS3</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">SQL</span>
+                  <span class="tech-badge">Wordpress</span>
+
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline">View Demo</a>
+                  <a href="#" class="btn btn-outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/public/img/calc.png" alt="Age Calculator" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Age Calculator</h3>
+                <p class="project-description">
+                  An interactive age calculator with instant results, date selection, and detailed breakdowns of years, months, and days. Includes customization options and exportable reports.                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">HTML5</span>
+                  <span class="tech-badge">CSS3</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">json</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline">View Demo</a>
+                  <a href="#" class="btn btn-outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/public/img/lms.png" alt="lms" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">learning Managenent System</h3>
+                <p class="project-description">
+                  A comprehensive Learning Management System (LMS) designed for seamless course management, student progress tracking, interactive learning modules, and real-time assessments.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">HTML5</span>
+                  <span class="tech-badge">CSS3</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">SQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline">View Demo</a>
+                  <a href="#" class="btn btn-outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section-container bg-muted">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2025 - Present</div>
+                <h3 class="timeline-title">Junior Web Developer</h3>
+                <p class="timeline-company">Meda Tec Solutions inc.</p>
+                <ul class="timeline-list">
+                  <li>Develop and maintain responsive websites using HTML, CSS, and JavaScript</li>
+                  <li>Implement SQL databases for content management and user authentication</li>
+                  <li>Collaborate with design team to create user-friendly interfaces</li>
+                  <li>Optimize site performance and implement analytics tracking</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2022 - 2023</div>
+                <h3 class="timeline-title">Data Annotator</h3>
+                <p class="timeline-company">Humans In The Loop Organization</p>
+                <ul class="timeline-list">
+                  <li>Conduct thorough quality checks to ensure data integrity and reliability.
+                  </li>
+                  <li>Strictly follow established protocols and procedures to maintain data consistency and minimize errors.
+                  </li>
+                  <li>Demonstrate high efficiency and productivity in labeling tasks, and meeting project deadlines and quotas.
+                  </li>
+                  <li>Consistently and accurately annotate data according to defined guidelines and quality standards.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2023 - 2024</div>
+                <h3 class="timeline-title">Student Developer</h3>
+                <p class="timeline-company">Kenyatta University Tech Club</p>
+                <ul class="timeline-list">
+                  <li>Developed websites for student organizations using HTML and CSS</li>
+                  <li>Designed simple database schemas for club member management</li>
+                  <li>Organized workshops on web development fundamentals</li>
+                  <li>Contributed to open-source projects as a learning experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section-container">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <h3 class="contact-subtitle">Contact Information</h3>
+              <p class="contact-text">
+                Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+              </p>
+              <div class="contact-details">
+                <div class="contact-detail-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-detail-content">
+                    <h4>Email</h4>
+                    <p>meshanyangu@gmail.com</p>
+                  </div>
+                </div>
+                <div class="contact-detail-item">
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-detail-content">
+                    <h4>Phone</h4>
+                    <p>+254708017928</p>
+                  </div>
+                </div>
+                <div class="contact-detail-item">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-detail-content">
+                    <h4>Location</h4>
+                    <p>Nairobi, Kenya</p>
+                  </div>
+                </div>
+              </div>
+              <div class="social-links">
+                <a href="https://github.com/Meshmanuu" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/immanuel-meshack-anyangu-62baa1282/" class="social-link">LinkedIn</a>
+                <a href="https://wa.me/+254708017928" class="social-link">Whatsapp</a>
+              </div>
+            </div>
+            <div class="contact-form-container">
+              <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#" class="logo">TechFolio<span class="text-primary">Trek</span></a>
+            <p class="footer-tagline">Building the web, one line at a time.</p>
+          </div>
+          <div class="footer-links">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h3 class="footer-title">Newsletter</h3>
+            <p>Subscribe to receive updates on new projects and tech articles.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 . All rights reserved.</p>
+          <p>Made by Immanuel</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Simple JavaScript for Mobile Menu Toggle -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuButton = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuButton.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+          menuButton.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a nav link
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach(link => {
+          link.addEventListener('click', function() {
+            navLinks.classList.remove('active');
+            menuButton.classList.remove('active');
+          });
+        });
+        
+        // Simple form submission 
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+          contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for your message! In a real application, this would be stored in the database.');
+            contactForm.reset();
+          });
+        }
+        
+        // Basic intersection observer for animations
+        const observerOptions = {
+          threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-view');
+            }
+          });
+        }, observerOptions);
+        
+        document.querySelectorAll('section').forEach(section => {
+          observer.observe(section);
+        });
+      });
+    </script>
+  </body>
+</html>
